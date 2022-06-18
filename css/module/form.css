@@ -1,0 +1,77 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 350px;
+}
+
+.form-registration {
+  padding-top: 250px;
+}
+
+.form__login,
+.form__password,
+.form__full-name,
+.form__email,
+.form__password-accept,
+.form__avatar {
+  font-size: 20px;
+}
+
+.form__login-input,
+.form__password-input,
+.form__full-name-input,
+.form__login-input,
+.form__email-input,
+.form__password-accept-input,
+.form__avatar-input {
+  margin: 10px 0;
+  padding: 10px 0;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #e3e3e3;
+  outline: none;
+}
+
+.form__subnmit {
+  padding: 10px 0;
+  margin-top: 25px;
+  background: #e3e3e3;
+  border: none;
+  background-color: aqua;
+  color: #000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.form__subnmit:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.form > p {
+  margin: 10px 0;
+}
+
+.form > p > a {
+  color: blue;
+}
+
+.form__message {
+  font-size: 20px;
+  border: 2px solid red;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.green {
+  border: 2px solid green;
+}

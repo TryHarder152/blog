@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__logotype">
+          <img src="images/logo.png" alt="logotype">
+        </div>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-list-item"><i class="fa-solid fa-house"></i>
+              <a href="#">Главная</a>
+            </li>
+            <li class="header__menu-list-item">
+              <i class="fa-solid fa-address-card"></i>
+              <a href="#">О нас</a>
+            </li>
+            <li class="header__menu-list-item">
+              <i class="fa-solid fa-server"></i>
+              <a href="#">Услуги</a>
+            </li>
+            <li class="header__menu-list-item">
+              <i class="fa-solid fa-user"></i>
+              <a href="#">Личный кабинет</a>
+              <ul>
+                <li><i class="fa-solid fa-screwdriver-wrench"></i><a href="#">Админка</a></li>
+                <li><i class="fa-solid fa-right-from-bracket"></i><a href="#">Выйти</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <form class="form form-registration" action="./vendor/signup.php" method="POST" enctype="multipart/form-data">
+    <label class="form__avatar" for="avatar">Аватар</label>
+    <input class="form__avatar-input" id="avatar" type="file" name="avatar">
+    <label class="form__full-name" for="fullName">ФИО</label>
+    <input class="form__full-name-input" id="fullName" type="text" placeholder="Введи полное имя" name="full_name">
+    <label class="form__login" for="login">Логин</label>
+    <input class="form__login-input" id="login" type="text" placeholder="Введи логин" name="login">
+    <label class="form__email" for="email">Почта</label>
+    <input class="form__email-input" id="email" type="email" placeholder="Введи адрес почты" name="email">
+    <label class="form__password" for="password">Пароль</label>
+    <input class="form__password-input" id="password" type="password" placeholder="Введи пароль" name="password">
+    <label class="form__password-accept" for="passwordAccept">Подтвердите пароль</label>
+    <input class="form__password-accept-input" id="passwordAccept" type="password" placeholder="Подтвердите пароль" name="password_confirm">
+    <input class="form__subnmit" type="submit" value="Войти">
+    <p>Зарегестрированы? <a href="./index.php">Войти</a></p>
+  </form>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__blog">
+          <div class="footer__blog-title">Мой блог</div>
+          <div class="footer__blog-text">
+            Мой блог - это блог, сделанный с целью обучения аудитории на платформе youtube и заработка подолнительной кармы)).
+          </div>
+          <div class="footer__blog-contacts">
+            <a href="tel:89919452153"class="footer__blog-contacts__telephone"><i class="fa-solid fa-phone"></i>8 (991) 945-21-53</a>
+            <a href="mailto:test@mail.ru"class="footer__blog-contacts__email"><i class="fa-solid fa-envelope"></i>test@mail.ru</a>
+          </div>
+          <div class="footer__blog-social-links">
+            <div class="footer__blog-social-link">
+              <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+            </div>
+            <div class="footer__blog-social-link">
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footer__blog-social-link">
+              <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+            <div class="footer__blog-social-link">
+              <a href="#"><i class="fa-brands fa-github-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="footer__links-title">Навигация</div>
+          <ul class="footer__links-navigation">
+            <li class="footer__links-navigation__item"><a href="#">События</a></li>
+            <li class="footer__links-navigation__item"><a href="#">Команда</a></li>
+            <li class="footer__links-navigation__item"><a href="#">Упражнения</a></li>
+            <li class="footer__links-navigation__item"><a href="#">Галлерея</a></li>
+            <li class="footer__links-navigation__item"><a href="#">Что-то еще</a></li>
+          </ul>
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__contacts-title">Связаться со мной</div>
+          <form class="footer__contacts-form">
+            <input class="footer__contacts-form__email" type="email" placeholder="Ваш адрес электронной почты">
+            <textarea class="footer__contacts-form__text" placeholder="Сообщение"></textarea>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="script/article.js" type="module"></script>
+</body>
+</html>

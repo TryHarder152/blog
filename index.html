@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__logotype">
+          <img src="images/logo.png" alt="logotype">
+        </div>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-list-item"><i class="fa-solid fa-house"></i>
+              <a href="#">Главная</a>
+            </li>
+            <li class="header__menu-list-item">
+              <i class="fa-solid fa-address-card"></i>
+              <a href="#">О нас</a>
+            </li>
+            <li class="header__menu-list-item">
+              <i class="fa-solid fa-server"></i>
+              <a href="#">Услуги</a>
+            </li>
+            <li class="header__menu-list-item">
+              <i class="fa-solid fa-user"></i>
+              <a href="#">Личный кабинет</a>
+              <ul>
+                <li><i class="fa-solid fa-screwdriver-wrench"></i><a href="#">Админка</a></li>
+                <li><i class="fa-solid fa-right-from-bracket"></i><a href="#">Выйти</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="carousel">
+    <div class="container">
+      <h3 class="carousel__title">Топ публикаций</h3>
+      <div class="carousel__wrapper">
+        <div class="carousel__inner">
+          <a class="carousel__item" href="#">
+            <img src="images/carousel1.jpg" alt="">
+            <p class="carousel__item-title">Слайд один</p>
+          </a>
+          <a class="carousel__item" href="#">
+            <img src="images/carousel2.jpg" alt="">
+            <p class="carousel__item-title">Слайд два</p>
+          </a>
+          <a class="carousel__item" href="#">
+            <img src="images/carousel3.jpg" alt="">
+            <p class="carousel__item-title">Слайд три</p>
+          </a>
+        </div>
+        <div class="carousel__arrows">
+          <div class="carousel__arrows-left"><i class="fa-solid fa-angle-left"></i></div>
+          <div class="carousel__arrows-right"><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+        <div class="carousel__navigation-btns">
+          <div class="carousel__navigation-btn active"></div>
+          <div class="carousel__navigation-btn"></div>
+          <div class="carousel__navigation-btn"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="container">
+      <h3 class="main__title">Последние публикации</h3>
+      <div class="main__wrapper">
+        <div class="main__content">
+          <div class="main__content-item">
+            <div class="main__content-item__img">
+              <img src="images/content1.jpg" alt="content">
+            </div>
+            <div class="main__content-item__wrapper">
+              <h2 class="main__content-item__title">Прикольная статья на тему динамического сайта</h2>
+              <div class="main__content-item__info">
+                <div class="main__content-item__info-author"><i class="fa-solid fa-user"></i>Имя Автора</div>
+                <div class="main__content-item__info-date"><i class="fa-solid fa-calendar-days"></i>mar 11, 2019</div>
+              </div>
+              <p class="main__content-item__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum amet a minima exercitationem...
+              </p>
+            </div>
+          </div>
+          <div class="main__content-item">
+            <div class="main__content-item__img">
+              <img src="images/content1.jpg" alt="content">
+            </div>
+            <div class="main__content-item__wrapper">
+              <h2 class="main__content-item__title">Прикольная статья на тему динамического сайта</h2>
+              <div class="main__content-item__info">
+                <div class="main__content-item__info-author"><i class="fa-solid fa-user"></i>Имя Автора</div>
+                <div class="main__content-item__info-date"><i class="fa-solid fa-calendar-days"></i>mar 11, 2019</div>
+              </div>
+              <p class="main__content-item__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum amet a minima exercitationem...
+              </p>
+            </div>
+          </div>
+          <div class="main__content-item">
+            <div class="main__content-item__img">
+              <img src="images/content1.jpg" alt="content">
+            </div>
+            <div class="main__content-item__wrapper">
+              <h2 class="main__content-item__title">Прикольная статья на тему динамического сайта</h2>
+              <div class="main__content-item__info">
+                <div class="main__content-item__info-author"><i class="fa-solid fa-user"></i>Имя Автора</div>
+                <div class="main__content-item__info-date"><i class="fa-solid fa-calendar-days"></i>mar 11, 2019</div>
+              </div>
+              <p class="main__content-item__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum amet a minima exercitationem...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="main__aside">
+          <div class="main__aside-section search">
+            <h3 class="search__title">Поиск</h3>
+            <form action="index.html" method="POST" class="search-form">
+              <input type="text" name="search" class="search-form__input" placeholder="search...">
+              <input type="submit" value="Найти" class="search-form__btn">
+            </form>
+          </div>
+          <div class="main__aside-section topic">
+            <h3 class="topic__title">Темы</h3>
+            <ul class="topic-list">
+              <li class="topic-list__item"><a href="#">Поэма</a></li>
+              <li class="topic-list__item"><a href="#">Цитата</a></li>
+              <li class="topic-list__item"><a href="#">Вымысел</a></li>
+              <li class="topic-list__item"><a href="#">Биография</a></li>
+              <li class="topic-list__item"><a href="#">Мотивация</a></li>
+              <li class="topic-list__item"><a href="#">Вдохновение</a></li>
+              <li class="topic-list__item"><a href="#">Жизненные уроки</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__blog">
+          <div class="footer__blog-title">Мой блог</div>
+          <div class="footer__blog-text">
+            Мой блог - это блог, сделанный с целью обучения аудитории на платформе youtube и заработка подолнительной кармы)).
+          </div>
+          <div class="footer__blog-contacts">
+            <a href="tel:89919452153"class="footer__blog-contacts__telephone"><i class="fa-solid fa-phone"></i>8 (991) 945-21-53</a>
+            <a href="mailto:test@mail.ru"class="footer__blog-contacts__email"><i class="fa-solid fa-envelope"></i>test@mail.ru</a>
+          </div>
+          <div class="footer__blog-social-links">
+            <div class="footer__blog-social-link">
+              <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+            </div>
+            <div class="footer__blog-social-link">
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footer__blog-social-link">
+              <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+            <div class="footer__blog-social-link">
+              <a href="#"><i class="fa-brands fa-github-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="footer__links-title">Навигация</div>
+          <ul class="footer__links-navigation">
+            <li class="footer__links-navigation__item"><a href="#">События</a></li>
+            <li class="footer__links-navigation__item"><a href="#">Команда</a></li>
+            <li class="footer__links-navigation__item"><a href="#">Упражнения</a></li>
+            <li class="footer__links-navigation__item"><a href="#">Галлерея</a></li>
+            <li class="footer__links-navigation__item"><a href="#">Что-то еще</a></li>
+          </ul>
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__contacts-title">Связаться со мной</div>
+          <form class="footer__contacts-form">
+            <input class="footer__contacts-form__email" type="email" placeholder="Ваш адрес электронной почты">
+            <textarea class="footer__contacts-form__text" placeholder="Сообщение"></textarea>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="script/script.js" type="module"></script>
+</body>
+</html>
